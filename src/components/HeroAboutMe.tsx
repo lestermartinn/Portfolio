@@ -29,10 +29,10 @@ export default function HeroAbout() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="#projects" className="px-6 py-3 bg-black text-white text-sm rounded hover:bg-gray-800 transition">
+            <a href="/projects" className="px-6 py-3 bg-black text-white text-sm rounded hover:bg-gray-800 transition">
               View Projects
             </a>
-            <a href="#contact" className="px-6 py-3 text-sm border border-black dark:border-white rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+            <a href="/contact" className="px-6 py-3 text-sm border border-black dark:border-white rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition">
               Contact Me ↓
             </a>
           </div>

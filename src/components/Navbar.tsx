@@ -13,9 +13,9 @@ export default function Navbar() {
           <Link href="/">LM</Link>
         </h1>
         <nav className="flex items-center gap-6">
-          <Link href="#projects" className="hover:underline">Projects</Link>
-          <Link href="/blog" className="hover:underline">Blog</Link>
-          <Link href="#contact" className="hover:underline">Contact</Link>
+          <Link href="/about" className="hover:underline">About</Link>
+          <Link href="/projects" className="hover:underline">Projects</Link>
+          <Link href="/contact" className="hover:underline">Contact</Link>
           <Button variant="ghost" size="icon" asChild>
             <a
               href="https://github.com/lestermartinn"

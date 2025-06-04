@@ -16,10 +16,10 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex justify-center gap-4">
           <Button asChild>
-            <a href="#projects">View Projects</a>
+            <a href="/projects">View Projects</a>
           </Button>
           <Button variant="ghost" asChild>
-            <a href="#contact" className="flex items-center gap-2">
+            <a href="/contact" className="flex items-center gap-2">
               Contact Me <ArrowDownIcon className="h-4 w-4" />
             </a>
           </Button>
