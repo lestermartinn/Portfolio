@@ -1,4 +1,8 @@
+"use client";
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const Lanyard = dynamic(() => import("./Lanyard"), { ssr: false });
 
 export default function HeroAbout() {
   return (
@@ -37,6 +41,9 @@ export default function HeroAbout() {
             </a>
           </div>
         </div>
+      </div>
+      <div className="w-full mt-8">
+        <Lanyard />
       </div>
     </section>
   );
