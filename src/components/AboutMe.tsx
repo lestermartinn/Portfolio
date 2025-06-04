@@ -20,7 +20,7 @@ export default function AboutMe() {
         <div>
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-          Hi! I'm a third-year Computer Science and Economics student at Emory University, passionate about web development, machine learning, large language models (LLMs), and workflow automation. I enjoy solving real-world problems through code and am always eager to learn new technologies.
+          Hi! I am a third-year Computer Science and Economics student at Emory University, passionate about web development, machine learning, large language models (LLMs), and workflow automation. I enjoy solving real-world problems through code and am always eager to learn new technologies.
           </p>
         </div>
       </div>
