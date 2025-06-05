@@ -30,9 +30,9 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="w-full py-16 bg-muted/10">
-      <div className="container mx-auto px-4 max-w-xl">
-        <h2 className="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+    <section id="contact" className="w-full py-16 bg-muted/10 flex justify-center">
+      <div className="max-w-2xl w-full p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg bg-white dark:bg-gray-800">
+        <h2 className="text-4xl font-extrabold mb-8 text-center">Contact Me</h2>
         {submitted ? (
           <div className="text-center text-green-600 font-medium">
             ✅ Thanks for reaching out!
