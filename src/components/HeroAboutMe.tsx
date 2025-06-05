@@ -10,7 +10,7 @@ export default function HeroAbout() {
         <div className="flex flex-col items-center">
           {/* Profile picture now above name */}
           <Image
-            src="/profile.jpeg"
+            src="/github_picture.jpeg"
             alt="Lester Martin"
             width={200}
             height={200}
@@ -21,9 +21,9 @@ export default function HeroAbout() {
           <div className="max-w-2xl mb-6">
             <p className="text-base text-gray-700 dark:text-gray-300 leading-relaxed text-center">
               Hi! I'm a third-year Computer Science and Economics student at Emory University,
-              passionate about web development, machine learning, large language models (LLMs),
-              and workflow automation. I enjoy solving real-world problems through code and am
-              always eager to learn new technologies.
+              passionate about software engineering. My main interests lie in web and game development, 
+              machine learning, large language models (LLMs), and workflow automation. I enjoy solving 
+              real-world problems through code and am always eager to learn new technologies.
             </p>
           </div>
 

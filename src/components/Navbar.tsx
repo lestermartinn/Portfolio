@@ -19,11 +19,13 @@ export default function Navbar() {
   return (
     <header className="w-full bg-muted/10 dark:bg-gray-900">
       <div className="container mx-auto flex h-20 items-center justify-center px-4">
-        <div className="bg-white dark:bg-gray-800 rounded-full shadow-md flex items-center px-8 py-2 gap-2 w-[600px]">
+        <div className="bg-white dark:bg-gray-800 rounded-full shadow-lg border-4 border-blue-600/10 dark:border-blue-600/20 flex items-center px-8 py-2 gap-2 w-[800px]">
           <nav className="flex items-center justify-center w-full mx-auto">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-6">
               <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-base font-medium px-4 py-2 rounded transition focus:outline-none focus:ring-2 focus:ring-blue-300">About</Link>
               <Link href="/projects" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-base font-medium px-4 py-2 rounded transition focus:outline-none focus:ring-2 focus:ring-blue-300">Projects</Link>
+              <Link href="/experience" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-base font-medium px-4 py-2 rounded transition focus:outline-none focus:ring-2 focus:ring-blue-300">Experience</Link>
+              <Link href="/involvement" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-base font-medium px-4 py-2 rounded transition focus:outline-none focus:ring-2 focus:ring-blue-300">Involvement</Link>
               <Link href="/contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-base font-medium px-4 py-2 rounded transition focus:outline-none focus:ring-2 focus:ring-blue-300">Contact</Link>
               <button
                 onClick={() => setDarkMode(!darkMode)}

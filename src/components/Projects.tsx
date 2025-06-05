@@ -7,11 +7,11 @@ import { FaFolder, FaFileAlt, FaCode } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full py-16 bg-muted/10 dark:bg-gray-900">
-      <div className="max-w-5xl mx-auto px-4">
+    <section id="projects" className="w-full mt-2 mb-8 bg-muted/10 dark:bg-gray-900">
+      <div className="max-w-5xl mx-auto px-4 py-8">
         <div className="w-full p-8 rounded-2xl border-4 border-blue-600/10 dark:border-blue-600/20 shadow-lg bg-white dark:bg-gray-800">
           <h2 className="text-4xl font-extrabold mb-12 text-center text-blue-600">Projects</h2>
-          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 justify-center justify-items-center items-center">
             {/* Project 1 */}
             <Card className="rounded-2xl shadow-md bg-white dark:bg-gray-800 flex flex-col justify-between h-full relative transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 border-blue-600/10 hover:border-blue-600/30 group">
               <div className="absolute top-4 left-4 text-blue-600">
@@ -20,7 +20,7 @@ export default function Projects() {
               <CardContent className="p-5 flex flex-col h-full pt-12">
                 <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-600 transition-colors duration-300">Portfolio Website</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                A modern portfolio website built with Next.js, Tailwind CSS, and Shadcn UI.
+                A virtual portfolio showcasing my current projects, experience, and community involvement.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
                   <a
@@ -82,12 +82,12 @@ export default function Projects() {
                 <FaCode size={24} />
               </div>
               <CardContent className="p-5 flex flex-col h-full pt-12">
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-600 transition-colors duration-300">Coming Soon</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-600 transition-colors duration-300">Under Development</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                  Stay tuned for more full-stack apps built with Supabase and Next.js.
+                  Exploring innovative tools and concepts. This section will be updated with a live project showcasing advanced design patterns and real world uses.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
-                  <a
+                  {/*<a
                     href="#"
                     className="text-gray-600 dark:text-gray-300 font-medium hover:underline flex items-center gap-1"
                     target="_blank"
@@ -95,10 +95,10 @@ export default function Projects() {
                     aria-label="GitHub Source"
                   >
                     <FaGithub size={18} /> Source
-                  </a>
+                  </a> */}
                 </div>
               </CardContent>
-            </Card>
+            </Card> 
           </div>
         </div>
       </div>

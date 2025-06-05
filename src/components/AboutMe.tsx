@@ -9,7 +9,7 @@ export default function AboutMe() {
         {/* Profile Photo */}
         <div className="flex justify-center">
           <Image
-            src="/profile.png" // Place this in /public/profile.png
+            src="/linkedin_profile.jpeg" // Place this in /public/profile.png
             alt="Lester Martin"
             width={250}
             height={250}
