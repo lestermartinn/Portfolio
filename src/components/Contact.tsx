@@ -31,7 +31,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="w-full py-16 bg-muted/10 dark:bg-gray-900 flex justify-center">
-      <div className="max-w-2xl w-full p-8 rounded-2xl border-4 border-blue-600/10 dark:border-blue-600/20 shadow-lg bg-white dark:bg-gray-800">
+      <div className="max-w-md w-full px-10 py-16 rounded-2xl border-4 border-blue-600/10 dark:border-blue-600/20 shadow-lg bg-white dark:bg-gray-800">
         <h2 className="text-4xl font-extrabold mb-8 text-center text-blue-600">Contact Me</h2>
         {submitted ? (
           <div className="text-center text-green-600 font-medium">

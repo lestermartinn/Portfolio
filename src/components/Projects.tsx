@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="max-w-5xl mx-auto px-4 py-8">
         <div className="w-full p-8 rounded-2xl border-4 border-blue-600/10 dark:border-blue-600/20 shadow-lg bg-white dark:bg-gray-800">
           <h2 className="text-4xl font-extrabold mb-12 text-center text-blue-600">Projects</h2>
-          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 justify-center justify-items-center items-center">
+          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mx-auto justify-items-center">
             {/* Project 1 */}
             <Card className="rounded-2xl shadow-md bg-white dark:bg-gray-800 flex flex-col justify-between h-full relative transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 border-blue-600/10 hover:border-blue-600/30 group">
               <div className="absolute top-4 left-4 text-blue-600">
