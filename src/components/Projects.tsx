@@ -4,7 +4,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { FaGithub } from "react-icons/fa";
 import { FaFolder, FaFileAlt, FaCode } from "react-icons/fa";
-import { SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiFirebase, SiShadcnui } from "react-icons/si";
+import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiShadcnui } from "react-icons/si";
 
 export default function Projects() {
   return (

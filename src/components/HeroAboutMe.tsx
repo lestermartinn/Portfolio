@@ -18,7 +18,7 @@ export default function HeroAbout() {
           
           <div className="max-w-2xl mb-6 px-4">
             <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed text-center">
-              Hey! I'm a third-year Computer Science and Economics student at Emory University,
+              Hey! I&apos;m a third-year Computer Science and Economics student at Emory University,
               passionate about software engineering. My interests lie in web and game development, 
               machine learning, large language models (LLMs), and workflow automation. I enjoy solving 
               real-world problems through code and am always eager to learn new technologies.
