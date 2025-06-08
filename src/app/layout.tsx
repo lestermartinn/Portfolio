@@ -18,6 +18,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Lester Martin | Portfolio",
   description: "Developer portfolio",
+  icons: {
+    icon: [
+      {
+        url: '/github_picture.jpeg',
+        type: 'image/jpeg',
+      }
+    ],
+    apple: [
+      {
+        url: '/github_picture.jpeg',
+        type: 'image/jpeg',
+      }
+    ],
+  },
 };
 
 export default function RootLayout({
