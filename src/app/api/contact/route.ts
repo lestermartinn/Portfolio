@@ -1,13 +1,12 @@
 import { Resend } from 'resend'
 
-export const runtime = 'edge' // Optional: runs faster on Vercel
-
-const resend = new Resend(process.env.RESEND_API_KEY)
+export const runtime = 'edge' // still ok
 
 export async function POST(req: Request) {
   const body = await req.json()
-
   const { name, email, message } = body
+
+  const resend = new Resend(process.env.RESEND_API_KEY!)  // moved inside
 
   try {
     const data = await resend.emails.send({
@@ -23,3 +22,4 @@ export async function POST(req: Request) {
     return Response.json({ error }, { status: 500 })
   }
 }
+
