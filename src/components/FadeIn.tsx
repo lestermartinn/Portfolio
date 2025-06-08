@@ -1,4 +1,4 @@
-// Simple FadeIn animation inspired by reactbits.dev
+// fade in animation inspired by reactbits
 'use client'
 
 import { motion } from 'framer-motion'

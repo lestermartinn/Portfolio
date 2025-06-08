@@ -7,7 +7,7 @@ export default function ClientWrapper({ children }: { children: React.ReactNode 
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
-    // Trigger animation only once after mount
+    // triggers animation only once after mount
     const timeout = setTimeout(() => setIsMounted(true), 50)
     return () => clearTimeout(timeout)
   }, [])
