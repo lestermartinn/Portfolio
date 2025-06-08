@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   title: "Lester Martin | Portfolio",
   description: "Developer portfolio",
   icons: {
-    icon: '/github_picture.jpeg',
-    shortcut: '/github_picture.jpeg',
-    apple: '/github_picture.jpeg',
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/icon',
   },
 };
 
