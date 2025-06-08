@@ -55,7 +55,7 @@ const involvementData = [
     role: "Vice President",
     date: "Aug. 2021 - Jun. 2023",
     location: "Southwest Miami Senior High School",
-    description: "Helped coordinate math competitions and tutoring sessions, fostered a collaborative learning environment, and supported the chapter’s organizational initiatives.",
+    description: "Helped coordinate math competitions and tutoring sessions, fostered a collaborative learning environment, and supported the chapter's organizational initiatives.",
     logo: "/mao_logo.png",
   },
   {
@@ -76,7 +76,7 @@ export default function Involvement() {
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="w-full p-8 rounded-2xl border-4 border-blue-600/10 dark:border-blue-600/20 shadow-lg bg-white dark:bg-gray-800">
-            <h1 className="text-4xl font-extrabold mb-12 text-center text-blue-600">
+            <h1 className="text-4xl font-extrabold mb-12 text-center text-blue-700">
               Involvement
             </h1>
             <div className="space-y-8">

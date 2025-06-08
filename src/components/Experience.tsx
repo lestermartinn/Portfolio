@@ -10,7 +10,7 @@ const experienceData = [
     title: "Freelance Game Developer",
     date: "Dec. 2017 - May 2024",
     location: "Remote",
-    description: "Developed an interactive game with over 1.3 million users at a 76% satisfaction rate.",
+    description: "Developed and published a highly interactive game that attracted over 1.3 million users, achieving a 76% satisfaction rate. Monetized gameplay through in-game purchases, generating over $10,000 in revenue from 1,000+ sales. Led the full game development lifecycle, including 3D modeling, texturing, animation, and user experience design.",
     logo: "/roblox_logo.png", 
   },
 
@@ -20,7 +20,7 @@ const experienceData = [
     title: "Instructional Design Intern",
     date: "Jul. 2022 - Aug. 2022",
     location: "Miami, FL",
-    description: "Created H5P framework-based interactive projects with accessible standards for university courses", 
+    description: "Designed interactive course materials using the H5P framework, aligning with accessibility standards to ensure inclusivity for diverse learners. Integrated multimedia components—graphics, audio, and video—to enhance engagement and retention. Collaborated with faculty to implement best practices in instructional design.", 
     logo: "/fiu_logo.jpg",
   },
   // add more experiences here
@@ -32,7 +32,7 @@ export default function Experience() {
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="w-full p-8 rounded-2xl border-4 border-blue-600/10 dark:border-blue-600/20 shadow-lg bg-white dark:bg-gray-800">
-            <h1 className="text-4xl font-extrabold mb-12 text-center text-blue-600">
+            <h1 className="text-4xl font-extrabold mb-12 text-center text-blue-700">
               Experience
             </h1>
             <div className="space-y-8">

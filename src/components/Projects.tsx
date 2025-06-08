@@ -65,7 +65,7 @@ export default function Projects() {
               <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
                 <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Sevenworks</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                Modern, real-time resume builder. Instantly create, edit, autosave, and download professional resumes with a live preview.
+                Modern, real-time resume builder. Instantly create, edit, and download professional resumes with a live preview and AI-powered chatbox.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
                   <a
