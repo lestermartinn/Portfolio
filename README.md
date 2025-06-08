@@ -4,5 +4,3 @@ Hey! I'm a third-year Computer Science and Economics student at Emory University
 I built this personal portfolio to showcase my current projects, experience, and community involvement. Feel free to contact me if you need any further information!
 
 [Portfolio](lestermartin.vercel.app)
-
-[Email](lestermartingonz@gmail.com)
