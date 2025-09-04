@@ -4,26 +4,38 @@ import Image from "next/image";
 import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const experienceData = [
+
+  // add more experiences here
+
   {
     id: 1,
+    company: "Emory University",
+    title: "Computer Science Lab Representative",
+    date: "Sep. 2025 - Present",
+    location: "Atlanta, GA",
+    description: "Provided academic support to 100+ undergraduates during lab sessions and office hours, assisting with debugging, algorithms, and software development. Collaborated with faculty to prepare lab materials and streamline weekly sessions, improving efficiency and student outcomes. Guided students in core programming tools and best practices, fostering stronger technical skills and assignment success.",
+    logo: "/emory_logo.png",
+  },
+
+  {
+    id: 2,
     company: "Roblox",
     title: "Founder & Lead Game Developer",
     date: "Dec. 2017 - May 2024",
     location: "Remote",
     description: "Developed and published a highly interactive game that attracted over 1.3 million users, achieving a 76% satisfaction rate. Monetized gameplay through in-game purchases, generating over $10,000 in revenue from 1,000+ sales. Led the full game development lifecycle, including 3D modeling, texturing, animation, and user experience design.",
-    logo: "/roblox_logo.png", 
+    logo: "/roblox_logo.png",
   },
 
   {
-    id: 2,
+    id: 3,
     company: "Florida International University",
     title: "Instructional Design Intern",
     date: "Jul. 2022 - Aug. 2022",
     location: "Miami, FL",
-    description: "Designed interactive course materials using the H5P framework, aligning with accessibility standards to ensure inclusivity for diverse learners. Integrated multimedia components—graphics, audio, and video—to enhance engagement and retention. Collaborated with faculty to implement best practices in instructional design.", 
+    description: "Designed interactive course materials using the H5P framework, aligning with accessibility standards to ensure inclusivity for diverse learners. Integrated multimedia components—graphics, audio, and video—to enhance engagement and retention. Collaborated with faculty to implement best practices in instructional design.",
     logo: "/fiu_logo.jpg",
   },
-  // add more experiences here
 ];
 
 export default function Experience() {
@@ -57,7 +69,7 @@ export default function Experience() {
                           {item.company}
                         </h3>
                         <div className="text-sm text-gray-600 dark:text-gray-300 flex items-center flex-shrink-0">
-                           <FaCalendarAlt className="mr-1" /> {item.date}
+                          <FaCalendarAlt className="mr-1" /> {item.date}
                         </div>
                       </div>
                       <div className="flex justify-between items-center">
@@ -65,7 +77,7 @@ export default function Experience() {
                           {item.title}
                         </p>
                         <div className="text-sm text-gray-600 dark:text-gray-300 flex items-center flex-shrink-0">
-                           <FaMapMarkerAlt className="mr-1" /> {item.location}
+                          <FaMapMarkerAlt className="mr-1" /> {item.location}
                         </div>
                       </div>
                     </div>
