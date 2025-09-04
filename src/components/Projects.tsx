@@ -4,7 +4,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { FaGithub } from "react-icons/fa";
 import { FaFolder, FaFileAlt, FaCode } from "react-icons/fa";
-import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiShadcnui } from "react-icons/si";
+import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiShadcnui, SiPython, SiFastapi, SiSqlite } from "react-icons/si";
 
 export default function Projects() {
   return (
@@ -27,17 +27,17 @@ export default function Projects() {
               <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
                 <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Portfolio Website</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                A virtual portfolio showcasing my current projects, experience, and community involvement.
+                  A virtual portfolio showcasing my current projects, experience, and community involvement.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
-                  <a
+                  {/*<a
                     href="#"
                     className="text-blue-700 font-medium hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     → Visit site
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/lestermartinn/portfolio"
                     className="text-gray-600 dark:text-gray-300 font-medium hover:underline flex items-center gap-1"
@@ -65,7 +65,7 @@ export default function Projects() {
               <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
                 <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Sevenworks</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                Modern, real-time resume builder. Instantly create, edit, and download professional resumes with a live preview and AI-powered chatbox.
+                  Modern, real-time resume builder. Instantly create, edit, and download professional resumes with a live preview and AI-powered chatbox.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
                   <a
@@ -94,24 +94,30 @@ export default function Projects() {
               <div className="absolute top-4 left-4 text-blue-700">
                 <FaCode size={24} />
               </div>
-              <CardContent className="p-4 md:p-5 flex flex-col h-full pt-12">
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Under Development</h3>
+              <div className="absolute top-4 right-4 flex flex-wrap gap-2 text-blue-700">
+                <SiPython size={20} title="Python" />
+                <SiFastapi size={20} title="FastAPI" />
+                <SiSqlite size={20} title="SQLite" />
+                <SiReact size={20} title="React" />
+              </div>
+              <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">DevLook</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                  Exploring innovative tools and concepts. This section will be updated with a live project showcasing advanced design patterns and real world uses.
+                  Privacy-first productivity dashboard that tracks application usage and developer workflows, providing real-time analytics and visual reports.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
-                  {/*<a
-                    href="#"
+                  <a
+                    href="https://github.com/lestermartinn/devlook"
                     className="text-gray-600 dark:text-gray-300 font-medium hover:underline flex items-center gap-1"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub Source"
                   >
                     <FaGithub size={18} /> Source
-                  </a> */}
+                  </a>
                 </div>
               </CardContent>
-            </Card> 
+            </Card>
           </div>
         </div>
       </div>
