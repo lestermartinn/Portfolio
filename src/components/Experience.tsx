@@ -23,7 +23,7 @@ const experienceData = [
     title: "Founder & Lead Game Developer",
     date: "Dec. 2017 - May 2024",
     location: "Remote",
-    description: "Developed and published a highly interactive game that attracted over 1.3 million users, achieving a 76% satisfaction rate. Monetized gameplay through in-game purchases, generating over $10,000 in revenue from 1,000+ sales. Led the full game development lifecycle, including 3D modeling, texturing, animation, and user experience design.",
+    description: "Developed and published a highly interactive game that attracted over 1.3 million users, achieving a 76% satisfaction rate. Monetized gameplay through in-game purchases, generating revenue from 1,000+ sales. Led the full game development lifecycle, including 3D modeling, texturing, animation, and user experience design.",
     logo: "/roblox_logo.png",
   },
 
