@@ -4,7 +4,8 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { FaGithub } from "react-icons/fa";
 import { FaFolder, FaFileAlt, FaCode } from "react-icons/fa";
-import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiShadcnui, SiPython, SiFastapi, SiSqlite } from "react-icons/si";
+import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiShadcnui, SiPython, SiFastapi, SiSqlite, SiCplusplus, SiOpencv, SiTensorflow } from "react-icons/si";
+import { SiMediapipe } from "react-icons/si";
 
 export default function Projects() {
   return (
@@ -19,15 +20,15 @@ export default function Projects() {
                 <FaFolder size={24} />
               </div>
               <div className="absolute top-4 right-4 flex flex-wrap gap-2 text-blue-700">
-                <SiNextdotjs size={20} title="Next.js" />
-                <SiReact size={20} title="React" />
-                <SiTailwindcss size={20} title="Tailwind CSS" />
-                <SiShadcnui size={20} title="Shadcn UI" />
+                <SiCplusplus size={20} title="C++" />
+                <SiOpencv size={20} title="OpenCV" />
+                <SiMediapipe size={20} title="MediaPipe" />
+                <SiTensorflow size={20} title="TensorFlow Lite" />
               </div>
               <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Portfolio Website</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">ASLense</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                  A virtual portfolio showcasing my current projects, experience, and community involvement.
+                  Real-time ASL recognition system using C++, OpenCV, and MediaPipe for hand tracking with TensorFlow Lite inference. Interactive learning tool for practicing the ASL alphabet.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
                   {/*<a
@@ -39,7 +40,7 @@ export default function Projects() {
                     → Visit site
                   </a> */}
                   <a
-                    href="https://github.com/lestermartinn/portfolio"
+                    href="https://github.com/lestermartinn/aslense"
                     className="text-gray-600 dark:text-gray-300 font-medium hover:underline flex items-center gap-1"
                     target="_blank"
                     rel="noopener noreferrer"

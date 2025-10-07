@@ -13,7 +13,7 @@ const experienceData = [
     title: "Computer Science Lab Representative",
     date: "Sep. 2025 - Present",
     location: "Atlanta, GA",
-    description: "Provided academic support to 100+ undergraduates during lab sessions and office hours, assisting with debugging, algorithms, and software development. Collaborated with faculty to prepare lab materials and streamline weekly sessions, improving efficiency and student outcomes. Also collaborated with a PhD student in the Computer Science and Informatics (CSI) department on frontend webpage maintenance.",
+    description: "Provided academic support to 100+ undergraduates during lab sessions and office hours, assisting with debugging, algorithms, and software development. Collaborated with faculty to prepare lab materials and streamline weekly sessions, improving efficiency and student outcomes. Also collaborated with a staff member overseeing PhD students in the Computer Science and Informatics (CSI) department on frontend webpage maintenance.",
     logo: "/emory_logo.png",
   },
 
