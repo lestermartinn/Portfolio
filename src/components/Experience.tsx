@@ -13,17 +13,17 @@ const experienceData = [
     title: "Computer Science Lab Representative",
     date: "Sep. 2025 - Present",
     location: "Atlanta, GA",
-    description: "Provided academic support to 100+ undergraduates during lab sessions and office hours, assisting with debugging, algorithms, and software development. Collaborated with faculty to prepare lab materials and streamline weekly sessions, improving efficiency and student outcomes. Also collaborated with a staff member overseeing PhD students in the Computer Science and Informatics (CSI) department on frontend webpage maintenance.",
+    description: "Supported over 100 students each week across multiple programming languages and coursework levels, helping debug code, work through algorithm implementations, and improve software development practices. Built and maintained responsive UI components for the department's research website using React and JavaScript, improving content management workflows for staff overseeing PhD programs.",
     logo: "/emory_logo.png",
   },
 
   {
     id: 2,
     company: "Roblox",
-    title: "Founder & Lead Game Developer",
+    title: "Independent Game Developer",
     date: "Dec. 2017 - May 2024",
     location: "Remote",
-    description: "Developed and published a highly interactive game that attracted over 1.3 million users, achieving a 76% satisfaction rate. Monetized gameplay through in-game purchases, generating revenue from 1,000+ sales. Led the full game development lifecycle, including 3D modeling, texturing, animation, and user experience design.",
+    description: "Designed and developed multiple game experiences using Lua and Roblox Studio, scaling systems to support 500+ concurrent users and managing over 1.3 million player interactions with 76% retention. Implemented complete monetization infrastructure including DataStore API integration for persistent player data, dynamic pricing systems, and purchase flows that processed roughly 5,000 transactions.",
     logo: "/roblox_logo.png",
   },
 
@@ -33,7 +33,7 @@ const experienceData = [
     title: "Instructional Design Intern",
     date: "Jul. 2022 - Aug. 2022",
     location: "Miami, FL",
-    description: "Designed interactive course materials using the H5P framework, aligning with accessibility standards to ensure inclusivity for diverse learners. Integrated multimedia components—graphics, audio, and video—to enhance engagement and retention. Collaborated with faculty to implement best practices in instructional design.",
+    description: "Created 15+ interactive learning modules using H5P framework and JavaScript, integrating them into Canvas LMS for over 100 university students. Conducted data analysis using Python and Pandas to evaluate student performance patterns, identifying learning gaps and optimizing module design to achieve 25% improvement in assessment scores and 20% increase in engagement metrics.",
     logo: "/fiu_logo.jpg",
   },
 ];

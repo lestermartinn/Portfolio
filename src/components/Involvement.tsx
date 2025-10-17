@@ -5,67 +5,40 @@ import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const involvementData = [
   {
-    id: 7,
+    id: 4,
     organization: "Emory Computer Science Club",
     role: "Co-President",
     date: "Aug. 2023 - Present",
     location: "Emory University",
-    description: "Organize and lead weekly meetings, coordinate speaker events and hackathons, and facilitate collaboration between members interested in computer science research, industry, and career development.",
+    description: "Organized and led weekly meetings, coordinated speaker events and hackathons, and facilitated collaboration between members interested in computer science research, industry, and career development.",
     logo: "/csclub_logo.png",
   },
   {
-    id: 6,
+    id: 3,
     organization: "ColorStack Emory",
     role: "Member",
     date: "Nov. 2024 - Present",
     location: "Emory University",
-    description: "Participate in initiatives supporting underrepresented students in tech through networking events, technical workshops, and community-building activities.",
+    description: "Participated in initiatives supporting underrepresented students in tech through networking events, technical workshops, and community-building activities.",
     logo: "/colorstack_logo.jpg",
   },
   {
-    id: 5,
+    id: 2,
     organization: "Project Emory",
     role: "Member",
     date: "Sep. 2024 - Present",
     location: "Emory University",
-    description: "Engage in interdisciplinary projects and hackathons focused on social good, collaborating with peers on software development and design solutions for nonprofit and community partners.",
+    description: "Engaged in interdisciplinary projects and hackathons focused on social good, collaborating with peers on software development and design solutions for nonprofit and community partners.",
     logo: "/pe_logo.png",
   },
   {
-    id: 4,
+    id: 1,
     organization: "Emory Programming Club",
     role: "Member",
     date: "Sep. 2024 - Present",
     location: "Emory University",
-    description: "Attend coding workshops and collaborative coding challenges, with a focus on improving technical proficiency and preparing for competitive programming and technical interviews.",
+    description: "Attended coding workshops and collaborative coding challenges, with a focus on improving technical proficiency and preparing for competitive programming and technical interviews.",
     logo: "/epc_logo2.png",
-  },
-  {
-    id: 3,
-    organization: "National Honor Society",
-    role: "President",
-    date: "Aug. 2022 - Jun. 2023",
-    location: "Southwest Miami Senior High School",
-    description: "Led a team of student officers, organized community service events, and oversaw membership requirements while promoting academic excellence and civic responsibility.",
-    logo: "/nhs_logo2.png",
-  },
-  {
-    id: 2,
-    organization: "Mu Alpha Theta",
-    role: "Vice President",
-    date: "Aug. 2021 - Jun. 2023",
-    location: "Southwest Miami Senior High School",
-    description: "Helped coordinate math competitions and tutoring sessions, fostered a collaborative learning environment, and supported the chapter's organizational initiatives.",
-    logo: "/mao_logo.png",
-  },
-  {
-    id: 1,
-    organization: "Westwood Veterinary Clinic",
-    role: "Volunteer",
-    date: "May 2021 - May 2023",
-    location: "Miami, FL",
-    description: "Assisted veterinarians with basic animal care tasks, maintained clean and safe workspaces, and helped ensure smooth day-to-day clinic operations.",
-    logo: "/vet_logo1.png",
   },
   // add more involvement things here
 ];
@@ -100,7 +73,7 @@ export default function Involvement() {
                           {item.organization}
                         </h3>
                         <div className="text-sm text-gray-600 dark:text-gray-300 flex items-center flex-shrink-0">
-                           <FaCalendarAlt className="mr-1" /> {item.date}
+                          <FaCalendarAlt className="mr-1" /> {item.date}
                         </div>
                       </div>
                       <div className="flex justify-between items-center">
@@ -108,7 +81,7 @@ export default function Involvement() {
                           {item.role}
                         </p>
                         <div className="text-sm text-gray-600 dark:text-gray-300 flex items-center flex-shrink-0">
-                           <FaMapMarkerAlt className="mr-1" /> {item.location}
+                          <FaMapMarkerAlt className="mr-1" /> {item.location}
                         </div>
                       </div>
                     </div>
