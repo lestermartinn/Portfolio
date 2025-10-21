@@ -30,7 +30,7 @@ const experienceData = [
   {
     id: 3,
     company: "Florida International University",
-    title: "Instructional Design Intern",
+    title: "Educational Technology Intern",
     date: "Jul. 2022 - Aug. 2022",
     location: "Miami, FL",
     description: "Created 15+ interactive learning modules using H5P framework and JavaScript, integrating them into Canvas LMS for over 100 university students. Conducted data analysis using Python and Pandas to evaluate student performance patterns, identifying learning gaps and optimizing module design to achieve 25% improvement in assessment scores and 20% increase in engagement metrics.",
