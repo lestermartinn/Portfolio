@@ -10,17 +10,17 @@ const experienceData = [
   {
     id: 1,
     company: "Emory University",
-    title: "Computer Science Lab Representative",
+    title: "Computer Science Lab Assistant",
     date: "Sep. 2025 - Present",
     location: "Atlanta, GA",
-    description: "Supported over 100 students each week across multiple programming languages and coursework levels, helping debug code, work through algorithm implementations, and improve software development practices. Built and maintained responsive UI components for the department's research website using React and JavaScript, improving content management workflows for staff overseeing PhD programs.",
+    description: "Built and maintained responsive UI components for the department's research website using React and JavaScript, streamlining content management workflows for staff overseeing PhD programs. Supported over 100 students each week across multiple programming languages and coursework levels, helping debug code, work through algorithm implementations, and improve software development practices.",
     logo: "/emory_logo.png",
   },
 
   {
     id: 2,
     company: "Roblox",
-    title: "Independent Game Developer",
+    title: "Fullstack Game Developer",
     date: "Dec. 2017 - May 2024",
     location: "Remote",
     description: "Designed and developed multiple game experiences using Lua and Roblox Studio, scaling systems to support 500+ concurrent users and managing over 1.3 million player interactions with 76% retention. Implemented complete monetization infrastructure including DataStore API integration for persistent player data, dynamic pricing systems, and purchase flows that processed roughly 5,000 transactions.",
