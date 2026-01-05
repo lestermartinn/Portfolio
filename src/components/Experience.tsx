@@ -10,7 +10,7 @@ const experienceData = [
   {
     id: 1,
     company: "Emory University",
-    title: "Computer Science Lab Assistant",
+    title: "Computer Science Lab Engineer",
     date: "Sep. 2025 - Present",
     location: "Atlanta, GA",
     description: "Built and maintained responsive UI components for the department's research website using React and JavaScript, streamlining content management workflows for staff overseeing PhD programs. Supported over 100 students each week across multiple programming languages and coursework levels, helping debug code, work through algorithm implementations, and improve software development practices.",
