@@ -9,16 +9,36 @@ const experienceData = [
 
   {
     id: 1,
-    company: "Emory University",
-    title: "Computer Science Lab Engineer",
-    date: "Sep. 2025 - Present",
+    company: "AI.Data Lab",
+    title: "Software Engineer Intern",
+    date: "Jan. 2026 - Present",
     location: "Atlanta, GA",
-    description: "Built and maintained responsive UI components for the department's research website using React and JavaScript, streamlining content management workflows for staff overseeing PhD programs. Supported over 100 students each week across multiple programming languages and coursework levels, helping debug code, work through algorithm implementations, and improve software development practices.",
+    description: "Selected from 200+ applicants to participate in 10-week data micro-consulting program, collaborating with team members to develop data-driven solutions for real-world challenges presented by Atlanta-area organizations.",
     logo: "/emory_logo.png",
   },
 
   {
     id: 2,
+    company: "Cognition and Visualization Lab",
+    title: "Undergraduare Researcher",
+    date: "Jan. 2026 - Present",
+    location: "Atlanta, GA",
+    description: "Conducting systematic literature review of bias detection systems (Lumos, rutaBAGA) analyzing 200+ participant studies across visual analytics research to design LLM-powered alternative for real-time bias awareness and mitigation.",
+    logo: "/cav_logo.png",
+  },
+
+  {
+    id: 3,
+    company: "Emory University",
+    title: "Computer Science Lab Engineer",
+    date: "Sep. 2025 - Present",
+    location: "Atlanta, GA",
+    description: "Supported over 100 students each week across multiple programming languages and coursework levels, helping debug code, work through algorithm implementations, and improve software development practices. Built and maintained responsive UI components for the department's research website using React and JavaScript, streamlining content management workflows for staff overseeing PhD programs.",
+    logo: "/emory_logo.png",
+  },
+
+  {
+    id: 4,
     company: "Roblox",
     title: "Fullstack Game Developer",
     date: "Dec. 2017 - May 2024",
@@ -28,7 +48,7 @@ const experienceData = [
   },
 
   {
-    id: 3,
+    id: 5,
     company: "Florida International University",
     title: "Educational Technology Intern",
     date: "Jul. 2022 - Aug. 2022",

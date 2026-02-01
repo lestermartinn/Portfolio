@@ -15,12 +15,12 @@ export default function HeroAbout() {
             className="rounded-full shadow-lg mb-4 border-2 border-blue-700/20 w-32 h-32 md:w-48 md:h-48"
           />
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-center text-blue-700">Lester Martin</h1>
-          
+
           <div className="max-w-2xl mb-6 px-4">
             <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed text-center">
               Hey! I&apos;m a third-year Computer Science and Economics student at Emory University,
-              passionate about software engineering. My interests lie in web and game development, 
-              machine learning, large language models (LLMs), and workflow automation. I enjoy solving 
+              passionate about software engineering. My interests lie in web and game development,
+              machine learning, and large language models (LLMs). I enjoy solving
               real-world problems through code and am always eager to learn new technologies.
             </p>
           </div>
