@@ -9,26 +9,36 @@ const experienceData = [
 
   {
     id: 1,
-    company: "AI.Data Lab",
-    title: "Software Engineer Intern",
-    date: "Jan. 2026 - Present",
-    location: "Atlanta, GA",
-    description: "Selected from 200+ applicants to participate in 10-week data micro-consulting program, collaborating with team members to develop data-driven solutions for real-world challenges presented by Atlanta-area organizations.",
-    logo: "/emory_logo.png",
+    company: "Handshake",
+    title: "Machine Learning Fellow",
+    date: "Feb. 2026 - Present",
+    location: "Remote",
+    description: "Conducted Reinforcement Learning from Human Feedback (RLHF) on multimodal LLM and vision models, evaluating 200+ prompts to reduce hallucinations and improve model alignment for production deployment pipelines.",
+    logo: "/handshakelogo.jpg",
   },
 
   {
     id: 2,
-    company: "Cognition and Visualization Lab",
-    title: "Undergraduare Researcher",
+    company: "AI.Data Lab",
+    title: "Software Engineer Intern",
     date: "Jan. 2026 - Present",
     location: "Atlanta, GA",
-    description: "Conducting systematic literature review of bias detection systems (Lumos, rutaBAGA) analyzing 200+ participant studies across visual analytics research to design LLM-powered alternative for real-time bias awareness and mitigation.",
-    logo: "/cav_logo.png",
+    description: "Created geospatial analysis methodology for Invest Atlanta using Python and GIS libraries to measure residents' proximity to fresh food access points, integrating 4 datasets to track progress toward 2030 goal of 100\% coverage within 1/2 mile.",
+    logo: "/emorycenterforai.png",
   },
 
   {
     id: 3,
+    company: "Cognition and Visualization Lab",
+    title: "Undergraduare Researcher",
+    date: "Jan. 2026 - Present",
+    location: "Atlanta, GA",
+    description: "Conducting systematic literature review of bias detection systems (Lumos, rutaBAGA) analyzing 200+ participant studies across visual analytics research to design LLM-powered alternative for real-time bias awareness and mitigation. Engineering a pipeline converting interaction telemetry into natural language prompts for LLM bias analysis.",
+    logo: "/cav_logo.png",
+  },
+
+  {
+    id: 4,
     company: "Emory University",
     title: "Computer Science Lab Engineer",
     date: "Sep. 2025 - Present",
@@ -38,7 +48,7 @@ const experienceData = [
   },
 
   {
-    id: 4,
+    id: 5,
     company: "Roblox",
     title: "Fullstack Game Developer",
     date: "Dec. 2017 - May 2024",
@@ -48,7 +58,7 @@ const experienceData = [
   },
 
   {
-    id: 5,
+    id: 6,
     company: "Florida International University",
     title: "Educational Technology Intern",
     date: "Jul. 2022 - Aug. 2022",
