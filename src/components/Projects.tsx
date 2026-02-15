@@ -28,7 +28,7 @@ export default function Projects() {
               <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
                 <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Pathfinder</h3>
                 <p className="text-muted-foreground dark:text-gray-300 mb-6">
-                  Interactive DS&A platform featuring step-through visualizations, AI-powered tutoring, and gamified progress tracking.
+                  Interactive DS&A platform featuring step-through visualizations, AI-powered tutoring, and progress tracking.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
                   <a
