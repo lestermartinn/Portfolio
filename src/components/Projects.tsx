@@ -31,14 +31,14 @@ export default function Projects() {
                   Interactive DS&A platform featuring step-through visualizations, AI-powered tutoring, and gamified progress tracking.
                 </p>
                 <div className="mt-auto flex justify-center gap-4">
-                  {/*<a
-                    href="#"
+                  <a
+                    href="https://pathfinder-dsa.vercel.app"
                     className="text-blue-700 font-medium hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     → Visit site
-                  </a> */}
+                  </a>
                   <a
                     href="https://github.com/lestermartinn/pathfinder"
                     className="text-gray-600 dark:text-gray-300 font-medium hover:underline flex items-center gap-1"
