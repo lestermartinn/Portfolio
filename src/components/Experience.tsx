@@ -51,7 +51,7 @@ const experienceData = [
     id: 5,
     company: "Roblox",
     title: "Fullstack Game Developer",
-    date: "Dec. 2017 - May 2024",
+    date: "Dec. 2017 - May 2025",
     location: "Remote",
     description: "Designed and developed multiple game experiences using Lua and Roblox Studio, scaling systems to support 500+ concurrent users and managing over 1.3 million player interactions with 76% retention. Implemented complete monetization infrastructure including DataStore API integration for persistent player data, dynamic pricing systems, and purchase flows that processed roughly 5,000 transactions.",
     logo: "/roblox_logo.png",
