@@ -4,7 +4,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { FaGithub } from "react-icons/fa";
 import { FaFolder, FaFileAlt, FaCode } from "react-icons/fa";
-import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiPython, SiFastapi, SiSqlite, SiCplusplus, SiOpencv, SiTensorflow, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiReact, SiTailwindcss, SiFirebase, SiPython, SiFastapi, SiSqlite, SiCplusplus, SiOpencv, SiTensorflow, SiTypescript, SiThreedotjs } from "react-icons/si";
 import { SiMediapipe } from "react-icons/si";
 
 export default function Projects() {
@@ -14,7 +14,45 @@ export default function Projects() {
         <div className="w-full p-4 md:p-8 rounded-2xl border-4 border-blue-700/10 dark:border-blue-700/20 shadow-lg bg-white dark:bg-gray-800">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-8 md:mb-12 text-center text-blue-700">Projects</h2>
           <div className="grid gap-6 md:gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto justify-items-center">
-            {/*Project 0 */}
+            {/* Project 0 - Soundgaze */}
+            <Card className="w-full max-w-sm rounded-2xl shadow-md bg-white dark:bg-gray-800 flex flex-col justify-between h-full relative transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 border-blue-700/10 hover:border-blue-700/30 group">
+              <div className="absolute top-4 left-4 text-blue-700">
+                <FaCode size={24} />
+              </div>
+              <div className="absolute top-4 right-4 flex flex-wrap gap-2 text-blue-700">
+                <SiReact size={20} title="React" />
+                <SiTypescript size={20} title="TypeScript" />
+                <SiThreedotjs size={20} title="Three.js" />
+                <SiTailwindcss size={20} title="Tailwind CSS" />
+              </div>
+              <CardContent className="p-4 md:p-5 flex flex-col h-full pt-16 md:pt-12">
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 transition-colors duration-300">Soundgaze</h3>
+                <p className="text-muted-foreground dark:text-gray-300 mb-6">
+                  Interactive 3D music universe mapping 100K+ songs into a navigable point cloud. Explore Spotify libraries and discover AI-recommended tracks. Built at Hacklytics 2026.
+                </p>
+                <div className="mt-auto flex justify-center gap-4">
+                  {/* <a
+                    href="#"
+                    className="text-blue-700 font-medium hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    → Visit site
+                  </a> */}
+                  <a
+                    href="https://github.com/lestermartinn/Soundgaze"
+                    className="text-gray-600 dark:text-gray-300 font-medium hover:underline flex items-center gap-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub Source"
+                  >
+                    <FaGithub size={18} /> Source
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 1 - Pathfinder */}
             <Card className="w-full max-w-sm rounded-2xl shadow-md bg-white dark:bg-gray-800 flex flex-col justify-between h-full relative transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 border-blue-700/10 hover:border-blue-700/30 group">
               <div className="absolute top-4 left-4 text-blue-700">
                 <FaFolder size={24} />

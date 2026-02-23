@@ -23,7 +23,7 @@ const experienceData = [
     title: "Software Engineer Intern",
     date: "Jan. 2026 - Present",
     location: "Atlanta, GA",
-    description: "Created geospatial analysis methodology using Python and GIS libraries to measure Atlantaresidents' proximity to fresh food access points, integrating 4 datasets to track progress toward 2030 goal of 100\% coverage within 1/2 mile.",
+    description: "Created geospatial analysis methodology with AI.Data Lab using Python and GIS libraries to measure Atlanta residents' proximity to fresh food access points, integrating 4 datasets to track progress toward 2030 goal of 100\% coverage within 1/2 mile.",
     logo: "/investatlanta_logo.jpg",
   },
 
